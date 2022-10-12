@@ -1,7 +1,7 @@
 'use strict'
 
 
-// IF UZDUOTIS SU AMZIUMI
+// IF UZDUOTIS pasirinkti ar susituokes?
 
 //  IF; IF ELSE;
 
