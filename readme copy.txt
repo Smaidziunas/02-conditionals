@@ -9,7 +9,7 @@
 - ### write text with a PRICE tag rounded to two decimals after comma;
   [math.js](js/math.js)
 
-- # !! ## 2 prompts with double IF ELSE inside IF statement !!
+- # !! ## 2 prompts with double IF: IF ELSE inside IF statement !!
   [psw.js](js/psw.js)
   
 - ### OnClick with simple sum to put inside
