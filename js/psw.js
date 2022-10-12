@@ -28,31 +28,28 @@
 
 'use strict'
 
-console.log('psw!!!');
 
-let username = prompt('admin');
-let password = prompt('adam11');
+let username = 'admin';
+let password = 'master1';
+// username = 'James';
+// password = 'James11';
+username = prompt('username');
+password = prompt('password');
 
 if (username === '') {
-  console.log('viso gero!');
-  // jeigu username = tuscia, tuomet, gauname viso gero.
-} 
-else if (username === 'admin') 
-{ 
-  // jeigu username = admin,
+  console.log('viso gero');
+} else if (username === 'admin') {
   if (password === 'master') {
-    console.log('hello admin!');
-  // ir jeigu password = master, gauname hello admin.
-  } else {console.log('neteisingas slaptazodis');
-  // kitu atveju, gauname neteisingas slaptazodis.
-  }
-} 
-else if (password === `${username}11`)
-// jeigu username != admin, password = username11, tuomet gauname sveiki username;
-{
-    console.log(`sveiki ${username}`);
-  } 
-  // arba gauname neteisingas slaptazodis;
-  else {
+    // username === 'admin'
+    // password === 'master'
+    console.log('hello admin');
+  } else {
     console.log('neteisingas slaptazodis');
   }
+} else if (password === `${username}11`) {
+  // username !== 'admin'
+  // password === username11
+  console.log(`welcome back ${username}`);
+} else {
+  console.log('neteisingas slaptazodis');
+}
